@@ -1,0 +1,20 @@
+.im1{
+    background-color: black;
+    border: 4px solid rgb(15, 1, 1);
+    border-radius: 4px;
+}
+.b1{
+    background: black;
+    margin-left: 120px;
+    color: white;
+    width:100px ;
+    height: 30px;
+    transform: 2s;
+    border: 1px solid wheat;
+    border-radius: 3px;
+
+}
+.b1:hover{
+     box-shadow: 0 0 10px rgb(234, 0, 255),0 0 15px rgb(132, 0, 255);
+
+}

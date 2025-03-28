@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+        THIS IS THE USER ACCOUNT CREATING 
+        <br><br>
+        <a href="index.html"><button class="we" style="margin-left: 320px;">X</button></a>
+        <br>
+        <div class="inputs">
+            <div class="input">
+
+            <label for="name">NAME</label> :<input type="text" id="name" name="name">
+            <br><br>
+            PHONE:<input type="number"  id="inp2">
+            <br><br>
+            GENDER:
+            
+            <img src="man.png" width="25px" height="25px" class="inp1" >
+            <input type="radio" name="gender" id="inp1">
+            <img src="woman.png" width="25px" height="28px" class="inp1"><input type="radio" name="gender" id="inp4">
+            <br><br>
+            EMAIL: <input type="email" name="email" id="inp3">
+            <br><br><br>
+            <button onclick="submit()" class="btn">CONFIRM</button>
+            </div>
+            
+        </div>
+        <div id="mess" style="display:none;">
+
+hello
+        </div>
+        
+        
+        <a href="memebers/mem.html"></a>
+           
+    </body>
+<script>
+    function submit(){
+        var name=document.getElementById('name').value;
+        const modal=document.getElementById("inp4").value;
+        var inp3=document.getElementById('inp3').value;
+        var inp2=document.getElementById("inp2").value;
+        const img="woman.png";
+        var inp1=document.getElementById('inp1').value;
+        var inp4=document.getElementById("inp4").value;
+
+        
+
+
+        if(name==="RAJESH",inp2==='1'){
+            window.location.href="mem.html";
+        }
+        else if (name==="sathish"){
+        window.location.href="/coust/sathish.html";
+        }
+        else if(name==="r"||name==="e" , inp2==="23",inp3==='rpra2335@gmail.com',inp1=checked)
+
+{
+    window.location.href='mem.html';
+}
+else if(inp1.checked){
+    alert("hi")
+}
+    }
+</script>
+</html>

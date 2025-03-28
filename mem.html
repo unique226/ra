@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav style="display: flex;">
+        
+    <div  style="width: 160px; height: 170px; border:1px solid black;">
+    <img src="user.png" width="150px" height="130px">
+    <p style="text-align: center;">RAJESH</p>
+    
+    
+    </div>
+<button onclick="hi()" style="border: 1px solid black; text-align:center;
+ width:200px; height:37px; margin-top:60px; margin-left:20px;
+  " class="btn">CLCIK HERE TO VIEW DETAILS</button>
+  <button onclick="lo()"style="border: 1px solid black; text-align:center;
+  width:200px; height:37px; margin-top:60px; margin-left:20px;" class="po">LOGOUT</button>
+
+  <a href="index.html"><button class="tog1"  style="display: none; height:30px;"  onclick="log()">LOG OUT</button></a>
+  <a href="mem.html"><button  class="togle" onclick="bac()" style="display: none; height:30px;">BACK</button></a>
+  
+    </nav>
+    <br>
+    <div class="btn1" style="display: none;width:250px; height:230px; border:2px solid black;">
+        <button onclick="no()" class="b" style="color: red;">X</button>
+        
+    <p style="font-family: fantasy; font-weight:300; ">
+        1.RAJESH.A
+        <br>
+        2.B.TECH IT
+        <br>
+        3.THOOTHUKUDI
+        <br>
+        4.ARUMUGA PANDI.M, KOVIL THANGAM.A
+        <br>
+        5.456MARKS IN 12TH
+        <br>
+        6.AGE 20
+    </p>
+
+    </div>
+    <hr>
+
+
+
+
+
+
+</body>
+<script>
+    var btn1=document.querySelector(".btn1")
+    var b=document.querySelector(".b")
+    var tog1=document.querySelector(".tog1")
+    var togle=document.querySelector(".togle")
+    function hi(){
+        b.style.display='block'
+        btn1.style.display="block"
+
+    }
+    function no(){
+        btn1.style.display='none'
+        b.style.display='none'
+
+    }
+    function lo(){
+        tog1.style.display='block'
+        togle.style.display='block'
+    
+    }
+
+</script>
+
+</html>

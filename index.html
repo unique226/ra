@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  
+    
+</head>
+<body>
+    <div class="d1">
+            <nav style="display: block; width:max-content; height:100px; border:2px solid black; color:black;gap:10px; display:flex; ">
+               <button  class="p2"  onclick="no()">
+                <img src="bars-staggered.png" alt="1" width="max-content" height="220%" >
+                 TERMS & CONDITIONS</button>
+                <button class="p2"><img src="user.png" width="max-content" height="220%" onclick="sub()" >LOGIN</button>
+                <select  class="more" style="margin-left: 40%;" onchange="window.location=this.value"><option  selected >MORE</option>
+                <option value="/category/beauty.html">BEAUTY</option>
+                <option value="/category/electric.html">ELECTRICAL</option>
+            
+            </select>
+                 
+                 
+
+            </nav>
+        <div class="dd1" style="display: none;">
+
+            <br><br><br>
+
+            <p class="gg" style="color: red; display:auto; width:15px; text-align:center; height:20px; background:black;" onclick="show()">x</p>
+
+            <p class="p1" > 
+                NOTE:
+                I WILL ACCEPT YOUR <a href="tms.html">TERMS AND CONTIONS</a>
+                <input type="checkbox" name="ni"  id="i">ACCEPT
+                
+            </p>
+        </div>
+    </div>
+    
+    <br>
+    <div id="images" style="margin-top: 30px;" >
+        <p class="im1">
+           <a href="/coust/sathish.html"><img src="/img/sathish.png" width="200px" height="200px"></a>
+           <br>
+           MANO...123.size available from 1 to 12.
+
+           free deleivery  is available for this order.
+
+        </p>
+        
+    </div>
+</body>
+<script>
+    
+    var dd1=document.querySelector(".dd1")
+
+
+    function show(){
+        dd1.style.display="none"
+        
+    }
+    function no(){
+
+
+        dd1.style.display="block"
+    }
+
+    function sub(){
+        
+        window.location.href="user.html"
+    }
+    
+
+
+    document.getElementById("i").addEventListener('click',function(){
+        confirm("YOU ACCEPTED OUR TERMS AND CONDITIONS.THANKYOU ")
+    })
+function login(){
+    window.location.href='mem.html';
+}
+   
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
